@@ -1,0 +1,140 @@
+body{
+    color: rgb(20, 20, 23);
+    background-color: rgb(21, 21, 24);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    
+}
+.background {
+    width: 500px;
+    object-fit: scale-down;
+}
+.text{
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: auto;
+    width: 800px;
+}
+.buttons{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bolder;
+    color: aliceblue;
+    background-size: 100px,200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#playAgain{
+    height: 40px;
+    display: none;
+    
+}
+#refreshButton{
+    height: 40px;
+    background-color: rgb(54, 54, 64) ;
+    color: aliceblue;
+}
+.options{
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: auto;
+    width: 500px;
+}
+#h2{
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#ftbutton{
+    width: 300px;
+}
+
+#guessTable{
+   table-layout: fixed;
+   overflow: hidden;
+   margin: auto ;
+    width: 85%;
+    height: 70px;
+    border-color: gray;
+}
+#myButton{
+    width :60px;
+    height: 40px;
+    background-color: rgb(54, 54, 64) ;
+    color: aliceblue;
+}
+#revealButton{
+    height: 40px;
+    display: inline;
+    background-color: rgb(54, 54, 64);
+    color: aliceblue;
+}
+#myText{
+    height: 60px;
+    font-size: 30px;
+    background-color: rgb(54, 54, 64);
+    color: aliceblue;
+}
+#guessCount{
+    font-size: 50px;
+}
+
+.difficulty{
+    background-color: rgb(54, 54, 64);
+    color: aliceblue;
+    font-size: 30px;
+    height: 60px;
+    width: 263.2px;
+    border-style: solid;
+    border-color: rgb(54, 54, 64);
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#Choose{
+    margin-top: 60px;
+}
+
+
+#backButton{
+    color: aliceblue;
+    background-color: rgb(31, 31, 37);
+    float: left;
+    margin-left: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#backButton:active {
+    border-style: outset;
+  }
+
+.header-container {
+    margin: bottom 10px;
+    font-size: 20px;
+    width: 100%;
+    color: aliceblue;
+    background: rgb(31, 31, 37);
+    border: none;
+}
+#h1{
+    margin-top: 2px;
+    margin-right: 38px;
+    text-align: center;
+}
+
+#difficultySelect{
+    background-color:rgb(31, 31, 37);
+    padding-bottom: 50px;
+}

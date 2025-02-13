@@ -1,0 +1,14 @@
+  {"heros":{
+    
+        "ANA":
+            {"name":"ANA", "sex":"F", "age":60, "role":"SUPPORT", "nationality":"EGYPTIAN", "cc":true, "healing":true}
+            ,
+        "ASHE":
+            {"name":"ASHE", "sex":"F", "age":39, "role":"DAMAGE", "nationality":"AMERICAN", "cc":true, "healing":false}
+        
+    
+}
+  }
+
+
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Overdle</title>
+    <link rel="stylesheet" href="style.css" />
+    <style></style>
+  </head>
+  <body>
+    <div class="header-container">
+      <a href="!OverdleFrontPage.html">
+        <button id="backButton" href>&#8592;</button>
+      </a>
+      <h1 id="h1">Overdle</h1>
+    </div>
+    <h2 class="text" id="h2"></h2>
+    <p class="text">Guesses:</p>
+    <p class="text" id="guessCount">0</p>
+    <div id="table" class="frame">
+      <table id="guessTable" class="text" border="2px">
+        <tr bgcolor="3A3B3C">
+          <th>Name</th>
+          <th>Gender</th>
+          <th>Age</th>
+          <th>Type</th>
+        </tr>
+        <tr>
+          <td id="nameGuess">&nbsp</td>
+          <td id="genderGuess"></td>
+          <td id="ageGuess"></td>
+          <td id="typeGuess"></td>
+        </tr>
+      </table>
+    </div>
+    <br />
+    <div class="buttons">
+      <div id="submit">
+        <label id="myLabel">Guess the hero!</label><br /><br />
+        <input type="text" id="myText" /><br />
+        <button type="button" id="myButton">Submit</button>
+      </div>
+      <div id="playAgain">
+        <button type="button" id="refreshButton">Play Again</button>
+      </div>
+    </div>
+    <h3 id="h3" class="options"></h3>
+    <script src="HardMainOverdle.js"></script>
+  </body>
+</html>
